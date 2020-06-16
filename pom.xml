@@ -72,8 +72,8 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<finalName>simpleapi</finalName>
 		</plugins>
+		<finalName>simpleapi</finalName>
 	</build>
 
 </project>
