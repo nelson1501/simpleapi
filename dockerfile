@@ -10,4 +10,4 @@ ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 WORKDIR /home/ubuntu
 ADD target/simpleapi.jar .
 EXPOSE 8080
-CMD java -jar -Dspring.profiles.active=h2 simpleapi.jar
+CMD java -jar -Dspring.profiles.active=prod simpleapi.jar
