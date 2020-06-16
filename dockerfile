@@ -9,4 +9,4 @@ RUN apt-get -y install openjdk-8-jre
 WORKDIR /home/ubuntu
 ADD target/simpleapi.jar .
 EXPOSE 8080
-CMD java -jar -Dspring.profiles.active=prod simpleapi.jar
+CMD java -jar -Dspring.profiles.active=h2 simpleapi.jar
