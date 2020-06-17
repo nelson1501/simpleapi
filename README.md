@@ -1,4 +1,4 @@
-# simpleapi
+# simpleapi<pre>
 Simple REST API
 
 Build application: 
@@ -65,3 +65,4 @@ Sample Request:
 	"zipCode": "560029"
 }
 
+</pre>
